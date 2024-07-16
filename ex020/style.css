@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div.ab{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black
+}
+
+div.ab:hover{
+    background-color: aliceblue;
+}
+
+div#pc:hover{
+    color: blue;
+}
+
+div#pc > p{
+    display: none;
+}
+div#pc:hover > p{
+    display: block; color: brown;
+
+}
